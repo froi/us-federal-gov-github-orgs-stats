@@ -1,0 +1,29 @@
+query($org: String!, $repoName: String!, $starsCursor: String, $forksCursor: String, $size: Int) {
+  repository(owner: $org, name: $repoName) {
+    stargazers(first: $size, after: $starsCursor, orderBy: {field: STARRED_AT, direction: ASC}) {
+      edges {
+        starredAt
+      }
+      pageInfo {
+        endCursor
+        hasNextPage
+      }
+    }
+    forks(first: $size, after: $forksCursor, orderBy: {field: CREATED_AT, direction: ASC}) {
+      edges {
+        node {
+          createdAt
+        }
+      }
+      pageInfo {
+        endCursor
+        hasNextPage
+      }
+    }
+  }
+  rateLimit {
+    limit
+    remaining
+    resetAt
+  }
+}

@@ -1,0 +1,40 @@
+query($search_query: String!, $size: Int!, $cursor: String) {
+  search(first:$size, query:$search_query, type: ISSUE, after:$cursor){
+    issueCount
+    edges {
+      node {
+        __typename
+        ... on Issue {
+          title
+          createdAt
+          lastEditedAt
+          state
+          updatedAt
+          repository {
+            name
+            owner {
+              login
+            }
+          }
+        }
+        ... on PullRequest {
+          title
+          createdAt
+          lastEditedAt
+          state
+          updatedAt
+          repository {
+            name
+            owner {
+              login
+            }
+          }
+        }
+      }
+    }
+    pageInfo {
+      endCursor
+      hasNextPage
+    }
+  }
+}

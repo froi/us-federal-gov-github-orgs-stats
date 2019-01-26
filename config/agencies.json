@@ -1,0 +1,185 @@
+{
+  "usaid": [
+    "usaid"
+  ],
+  "usda": [
+    "usda",
+    "usda-ars-agil",
+    "USDA-ERS",
+    "USDA-FSA",
+    "usda-vs",
+    "WFMRDA"
+  ],
+  "doc": [
+    "businessus",
+    "commercedataservice",
+    "commercegov",
+    "internationaltradeadministration",
+    "ioos",
+    "nesii",
+    "NMML",
+    "noaa-gfdl",
+    "NOAA-ORR-ERD",
+    "ntia",
+    "SelectUSA",
+    "us-bea",
+    "uscensusbureau",
+    "useda",
+    "USPTO"
+  ],
+  "dod": [
+    "adl-aicc",
+    "adlnet",
+    "afrl",
+    "defense-cyber-crime-center",
+    "deptofdefense",
+    "dhs-ncats",
+    "erdc-cm",
+    "M-O-S-E-S",
+    "missioncommand",
+    "NationalGuard",
+    "redhawksdr",
+    "virtual-world-framework",
+    "afseo",
+    "erdc-itl",
+    "iadgov",
+    "info-sharing-environment",
+    "NationalSecurityAgency",
+    "ngageoint",
+    "nsacyber",
+    "project-interoperability",
+    "psns-imf",
+    "screamlab",
+    "usarmyresearchlab",
+    "USNavalResearchLaboratory"
+  ],
+  "ed": [
+    "usedgov"
+  ],
+  "doe": [
+    "doecode",
+    "energyapps",
+    "GIST-ORNL",
+    "ngds",
+    "petsc",
+    "llnl"
+  ],
+  "hhs": [
+    "blue-button",
+    "CDCgov",
+    "cmsgov",
+    "demand-driven-open-data",
+    "didsr",
+    "fda",
+    "hhs",
+    "HHS-AHRQ",
+    "HHSDigitalMediaAPIPlatform",
+    "HHSIDEAlab",
+    "informaticslab",
+    "nhanes",
+    "nidcd"
+  ],
+  "dhs": [
+    "US-CBP",
+    "uscis"
+  ],
+  "doj": [
+    "NIEM",
+    "usdoj"
+  ],
+  "dol": [
+    "EEOC",
+    "usdepartmentoflabor"
+  ],
+  "dos": [
+    "CA-CST-Library",
+    "CA-CST-SII",
+    "historyatstate",
+    "IIP-Design",
+    "state-hiu",
+    "usstatedept"
+  ],
+  "doi": [
+    "arcticlcc",
+    "GreatSmokyMountainsNationalPark",
+    "nationalparkservice",
+    "NCRN",
+    "usbr",
+    "USFWS",
+    "usgs",
+    "USGS-Astrogeology",
+    "USGS-CIDA",
+    "usgs-cmg",
+    "usgs-eros",
+    "USGS-OWI",
+    "USGS-R",
+    "USGS-WiM",
+    "usindianaffairs",
+    "usinterior"
+  ],
+  "treasury": [
+    "fedspendingtransparency",
+    "IRSgov"
+  ],
+  "dot": [
+    "Federal-Aviation-Administration",
+    "IMDProjects",
+    "usdot-jpo-ode"
+  ],
+  "dva": [
+    "department-of-veterans-affairs",
+    "USDeptVeteransAffairs",
+    "VHAINNOVATIONS"
+  ],
+  "epa": [
+    "regulationsgov",
+    "usepa"
+  ],
+  "gsa": [
+    "18f",
+    "digital-analytics-program",
+    "eregs",
+    "government-services",
+    "gsa",
+    "gsa-oes",
+    "Innovation-Toolkit",
+    "opengovplatform",
+    "presidential-innovation-fellows",
+    "project-open-data",
+    "sbstusa",
+    "usagov",
+    "usasearch"
+  ],
+  "HUD": [
+    "hudgov"
+  ],
+  "nasa": [
+    "hudgov",
+    "ccmc",
+    "globegit",
+    "keplergo",
+    "nasa",
+    "nasa-develop",
+    "nasa-gibs",
+    "NASA-rdt",
+    "nasa-tournament-lab",
+    "nasaworldwind",
+    "NeoGeographyToolkit",
+    "Open-Sat",
+    "SERVIR",
+    "sunpy",
+    "visionworkbench"
+  ],
+  "nsf": [
+    "nsf-open"
+  ],
+  "opm": [
+    "usajobs"
+  ],
+  "sba": [
+    "ussba"
+  ],
+  "ssa": [
+    "ssagov"
+  ]
+}

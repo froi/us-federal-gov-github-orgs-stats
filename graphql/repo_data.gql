@@ -1,0 +1,36 @@
+query($search_query: String!, $size: Int!, $cursor: String) {
+  search(first:$size, query:$search_query, type: REPOSITORY, after:$cursor){
+    repositoryCount
+    edges {
+      node {
+        __typename
+        ... on Repository {
+          name
+          owner {
+            login
+          }
+          issues {
+            totalCount
+          }
+          forks {
+            totalCount
+          }
+          stargazers {
+            totalCount
+          }
+          watchers {
+            totalCount
+          }
+          forkCount
+          nameWithOwner
+          createdAt
+          isPrivate
+        }
+      }
+    }
+    pageInfo {
+      endCursor
+      hasNextPage
+    }
+  }
+}
